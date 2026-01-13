@@ -1,21 +1,31 @@
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-8 py-4 bg-white shadow">
-      <h1 className="font-bold text-xl text-red-500">MANIMA</h1>
+    <nav className="w-full">
+      <div className="mx-auto max-w-[1536px] px-6 flex items-center justify-between h-16">
+        
+        {/* Left */}
+        <div className="flex items-center gap-8">
+          <div className="bg-red-500 w-35 h-12 rounded"></div>
 
-      <ul className="hidden md:flex gap-6 text-sm">
-        <li>Services</li>
-        <li>About Us</li>
-      </ul>
+          <ul className="hidden md:flex gap-12 text-xl font-normal tracking-wider">
+            <li>Services</li>
+            <li>About Us</li>
+          </ul>
+        </div>
 
-      <div className="flex items-center gap-4">
-        <input
-          className="border rounded-full px-4 py-1 text-sm"
-          placeholder="Search for Birthday puja"
-        />
-        <button className="bg-red-500 text-white px-4 py-1 rounded-full text-sm">
-          Sign In
-        </button>
+        {/* Right */}
+        <div className="flex items-center gap-4">
+          <input
+            type="text"
+            placeholder="Search for Birthday puja"
+            className="hidden sm:block px-4 py-1.5 text-sm rounded-full border outline-none"
+          />
+
+          <button className="bg-red-500 text-white px-4 py-1.5 rounded-full text-sm">
+            Sign In
+          </button>
+        </div>
+
       </div>
     </nav>
   );
