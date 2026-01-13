@@ -1,0 +1,18 @@
+{
+  "services": ["Birthday Puja", "Shradh Puja", "Navgraha Puja", "Satyanarayan Puja"],
+  "cards": [
+    { "title": "Pind Daan", "img": "https://static.wixstatic.com/media/4d32f3_1854bb3f8a664bea94f4d40a2f233059~mv2.jpg/v1/fill/w_568,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4d32f3_1854bb3f8a664bea94f4d40a2f233059~mv2.jpg" },
+    { "title": "Pind Daan", "img": "https://static.wixstatic.com/media/4d32f3_1854bb3f8a664bea94f4d40a2f233059~mv2.jpg/v1/fill/w_568,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4d32f3_1854bb3f8a664bea94f4d40a2f233059~mv2.jpg" },
+    { "title": "Pind Daan", "img": "https://static.wixstatic.com/media/4d32f3_1854bb3f8a664bea94f4d40a2f233059~mv2.jpg/v1/fill/w_568,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4d32f3_1854bb3f8a664bea94f4d40a2f233059~mv2.jpg" }
+  ],
+  "faqs": [
+    {
+      "q": "Is online Pind Daan at Puri spiritually valid?",
+      "a": "Yes. All rituals are performed by qualified priests following scriptures."
+    },
+    {
+      "q": "How do you ensure authenticity?",
+      "a": "Live video, temple verification, and transparent processes."
+    }
+  ]
+}
